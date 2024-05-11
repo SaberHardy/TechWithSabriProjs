@@ -8,7 +8,7 @@ you can follow these steps:
 > 5. git push origin new_branch_name
 > 
 > 
-> (Note: you can combine previous steps with this command:)
+> (Note: you can combine previous steps (1 and 2) with this command:)
 > git checkout -b new_branch_name
 > 
 > 
