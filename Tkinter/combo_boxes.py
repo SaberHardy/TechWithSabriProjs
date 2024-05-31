@@ -12,6 +12,7 @@ def multi_selection(event):
 
 
 def combobox_function(event):
+    print(days)
     if combo_box.get() == "Friday":
         Label(root, text="Happy Friday").pack()
     else:
