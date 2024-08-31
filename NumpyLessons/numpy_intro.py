@@ -8,27 +8,40 @@
 
 import numpy as np
 
-array_example = np.array([0, 1, 2, 3, 4, 5])
-print(array_example)
+arr = np.array([1, 2, 3, 4, 5])
+print(arr[1:4])  # Output: [2 3 4]
 
-print(array_example.shape)
+# 2. Slicing with Step
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+print(arr[1:7:2])  # Output: [2 4 6]
 
-array_example_2 = np.arange(0, 10)
-print(array_example_2)
+# 3. Negative Indexing in Slicing
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[-4:-1])  # Output: [20 30 40]
 
-array_example_3 = np.arange(0, 10, 2)
-print(array_example_3)
+# 4.1 Slicing Multi-Dimensional Arrays
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr_2d[1:, 1:])  # Output: [[5 6], [8 9]]
+# 4.2 3D
+arr_3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+print(arr_3d[:, 1, :])  # Output: [[3 4], [7 8]]
 
-zero_array = np.zeros(10)
-print(zero_array)
+# 5. Ellipsis Slicing
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+print(arr[..., 1])  # Output: [[2 5], [8 11]]
 
-ones_array = np.ones(10)
-print(ones_array)
+# 6. Combining Slicing and Integer Indexing
+arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr_2d[1, 1:])  # Output: [5 6]
 
-multi_dim_ones = np.zeros((3, 3))
-print(multi_dim_ones)
+# 7. Slicing with Boolean Masks
+arr = np.array([10, 20, 30, 40, 50])
+mask = arr > 30
+print(arr[mask])  # Output: [40 50]
 
-multi_fours = np.full((5, 5), 4)
-print(multi_fours)
-
-print(multi_fours * 2)
+# 8. Slicing Along Custom Axes
+arr_3d = np.array([
+    [[1, 2, 3], [4, 5, 6]],
+    [[7, 8, 9], [10, 11, 12]]
+])
+print(arr_3d[1, :, 1])  # Output: [8 11]
