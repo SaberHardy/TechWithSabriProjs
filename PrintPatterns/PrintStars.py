@@ -10,3 +10,4 @@ my_label2.grid(row=1, column=5)
 my_label3.grid(row=1, column=1)
 
 root.mainloop()
+print("this is just a test to follow up the commits")
