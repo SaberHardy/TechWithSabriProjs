@@ -25,3 +25,4 @@ print(f"Area of rectangle is: {rectangle.area()}")
 
 circle = Circle(5)
 print(f"Area of Circle is: {circle.area()}")
+print("make sure to add the right comments")
