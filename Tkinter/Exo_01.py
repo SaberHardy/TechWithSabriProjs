@@ -49,4 +49,6 @@ button_clear.grid(row=5, column=0, padx=5, pady=5, columnspan=2)
 button_calculate = tk.Button(root, text='=', width=5, height=2, font=('Arial', 12), command=calculate)
 button_calculate.grid(row=5, column=2, padx=5, pady=5, columnspan=2)
 
+print("This is another commit to check the commits . . .")
+
 root.mainloop()
