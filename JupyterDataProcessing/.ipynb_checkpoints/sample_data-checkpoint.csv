@@ -1,0 +1,11 @@
+Name,Age,City,Salary,Is_Employed
+John,30.0,New York,,True
+Jane,25.0,Los Angeles,50000.0,False
+,40.0,Chicago,60000.0,True
+Mike,35.0,,70000.0,False
+Emily,,Houston,80000.0,True
+David,45.0,Phoenix,,False
+Sarah,30.0,Dallas,55000.0,True
+Chris,25.0,Seattle,65000.0,False
+,40.0,Denver,75000.0,True
+Olivia,35.0,San Francisco,,False

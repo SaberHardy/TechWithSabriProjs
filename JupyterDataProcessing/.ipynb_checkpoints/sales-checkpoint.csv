@@ -1,0 +1,5 @@
+Product,Price,Quantity,Discount (%),Region
+Laptop,800,5,10,East
+Tablet,200,15,5,West
+Phone,500,8,0,North
+Monitor,300,7,7,South
