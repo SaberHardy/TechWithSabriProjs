@@ -18,3 +18,6 @@ you can follow these steps:
 > To Undo pushes that already done
 > git reset --soft HEAD~1
 > git push origin main --force
+
+
+small changes to the main branch readme
