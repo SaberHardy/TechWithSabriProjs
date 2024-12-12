@@ -19,5 +19,12 @@ you can follow these steps:
 > git reset --soft HEAD~1
 > git push origin main --force
 
+Lessons Added to this repo are:
+Lessons 101:
+  - Beginners
 
-small changes to the main branch readme
+Lessons 102:
+  - Intermediate
+
+Lessons 102 - 01:
+  - Intermediate - Advanced
