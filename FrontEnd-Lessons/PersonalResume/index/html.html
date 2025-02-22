@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
     <title>Professional CV</title>
 </head>
 <body>
@@ -14,6 +15,7 @@
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact Me</a>
+<!--        TODO: add light and datk mode-->
     </nav>
 </header>
 
@@ -23,10 +25,13 @@
         <h2>Full Stack Developer</h2>
         <p>Passionate about creating beautiful and functional wen applications.</p>
     </div>
+    <div class="hero-image">
+        <img src="https://cdn.pixabay.com/photo/2016/09/21/21/29/butterfly-1685728_1280.jpg" alt="Profile Pict">
+    </div>
 </section>
 
 <section id="experience">
-    <h2>Experience</h2>
+    <h2 class="title-type">Experience</h2>
     <div class="timeline">
         <div class="timeline-item">
             <h3>Senior Developer</h3>
@@ -44,7 +49,7 @@
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
+    <h2 class="title-type">Skills</h2>
     <div class="skills-grid">
         <div class="skill-card">
             <div class="skill-card-inner">
@@ -81,8 +86,8 @@
     </div>
 </section>
 
-<section id="contact">
-    <h2>Contact Me</h2>
+<section id="contact" class="margin-section">
+    <h2 class="title-type">Contact Me</h2>
     <form class="contact-form">
         <div class="form-group">
             <input type="text" placeholder="Type your name here" required>
